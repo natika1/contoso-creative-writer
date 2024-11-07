@@ -2,7 +2,7 @@
 name: Social Media Agent
 description: This social media agent takes research from the researcher agent and generates social media content for Twitter
 authors:
-  - Your name 
+  - natika1 
 model:
   api: chat
   configuration:
@@ -10,7 +10,7 @@ model:
     azure_deployment: gpt-4
     api_version: 2023-07-01-preview
   parameters:
-    max_tokens: 50
+    max_tokens: 1500
 sample:
   researchContext: Can you find the latest camping trends and what folks are doing in the winter?
   research: research
@@ -34,7 +34,7 @@ Do not invent information that is not in the research.
 
 # Thread
 
-Write a fun and engaging twitter thread given the research context and research. 
+Write a fun and engaging linkedIn thread given the research context and research. 
 
 # Final Instructions
 Try to keep your writing short and to the point. The goal is to create a popular post on twitter
